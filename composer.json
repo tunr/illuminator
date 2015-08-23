@@ -1,0 +1,20 @@
+{
+    "name": "tunr/illuminator",
+    "description": "Easily use laravel components in your non-laravel project.",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "Nathan Stokes",
+            "email": "nathan@soulsender.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+        "laravel/framework": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminator\\": "src"
+        }
+    }
+}
